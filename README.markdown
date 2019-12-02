@@ -1,4 +1,4 @@
-# ThreeJS plane wave
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/egecan12/pen/OJPJQgv](https://codepen.io/egecan12/pen/OJPJQgv).
+# Textured Slide
+ _A Pen created at CodePen.io. Original URL: [https://codepen.io/egecan12/pen/YzPzLzb](https://codepen.io/egecan12/pen/YzPzLzb).
 
- A three js plane animated by modifing their z vertices
+ Using Three.js, sliding inside a torus tube

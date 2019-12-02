@@ -12,8 +12,3 @@ body{
   left: 0;
   position: absolute;       background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKElEQVQYV2NkQAOMIP7///8lGRkZn4PYYAEQsLW1lTx8+PBzuABMJQAJpQsb4VQgygAAAABJRU5ErkJggg==) repeat;
 }
-img{
-  position:absolute;
-  top:50%;
-  left:40%;
-}
