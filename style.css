@@ -1,8 +1,8 @@
-body{
+html{
   overflow: hidden;
   margin: 0;
   padding: 0;
-  position: relative;	
+  position: relative;
 }
 
 .arcadeScreen{
@@ -31,8 +31,4 @@ body{
   width: 200px;
   height: 75px;;
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 98046ddfb82bd6ba9488583763972ae2144e7387

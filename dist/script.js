@@ -19,7 +19,7 @@ image.onload = function() {
     alpha: false,
   });
   renderer.setClearColor(new THREE.Color('gray'), 1)
-  renderer.setSize( window.innerWidth, window.innerHeight );
+  renderer.setSize( window.innerWidth, 500 );
   document.body.appendChild( renderer.domElement );
 
   // array of functions for the rendering loop
@@ -27,7 +27,7 @@ image.onload = function() {
 
   // init scene and camera
   var scene	= new THREE.Scene();
-  var camera	= new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 1000);
+  var camera	= new THREE.PerspectiveCamera(45, window.innerWidth / 500, 0.01, 1000);
   var step	= 0;
 
   var geometry = new THREE.TorusGeometry( 1024, 1, 16, 1024);
@@ -65,8 +65,8 @@ image.onload = function() {
 
 // handle window resize
 window.addEventListener('resize', function(){
-  renderer.setSize( window.innerWidth, window.innerHeight )
-  camera.aspect	= window.innerWidth / window.innerHeight
+  renderer.setSize( window.innerWidth, 500 )
+  camera.aspect	= window.innerWidth / 500
   camera.updateProjectionMatrix()		
 }, false)
 
