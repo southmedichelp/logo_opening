@@ -12,8 +12,23 @@ body{
   left: 0;
   position: absolute;       background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKElEQVQYV2NkQAOMIP7///8lGRkZn4PYYAEQsLW1lTx8+PBzuABMJQAJpQsb4VQgygAAAABJRU5ErkJggg==) repeat;
 }
-img{
+.logo1{
   position:absolute;
   top:50%;
-  left:40%;
+  left:35%;
+}
+.logo2{
+  position:absolute;
+  top:54%;
+  left:55%;
+}
+
+.logo3{
+
+  position:absolute;
+  top:42%;
+  left:45%;
+  width: 200px;
+  height: 75px;;
+
 }
